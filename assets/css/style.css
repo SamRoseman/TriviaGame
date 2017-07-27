@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	text-align: center;
+	background-image: url(../images/catback.jpg);
+
+}
+
+.container {
+	background-size: contain;
+	background-position: center;
+	background-image: url(../images/catpaw.png);
+	background-repeat: no-repeat;
+}
+
+#start-game, 
+#re-start {
+	margin: 5px 400px;
+	margin-top: 150px;
+	border-radius: 30px;
+	font-size: 50px;
+	font-family: 'Satisfy', cursive;
+	background-color: #d8c5ff;
+}
+#start-game:hover, 
+#re-start:hover {
+	background-color: #817698;
+}
+
+h1 {
+	margin: 5px 400px;
+	border-radius: 15px;
+	background-color: #d8c5ff;
+	font-size: 50px;
+	font-family: 'Satisfy', cursive;
+}
+
+p {
+	margin: 5px 400px;
+	border-radius: 30px;
+	background-color: #d8c5ff;
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+}
+
+.all-buttons {
+	border-radius: 15px;
+	margin: 5px 400px;
+	font-size: 40px;
+	font-family: 'Amatic SC', cursive;
+	background-color: #c7c6ba;
+}
+
+
+.all-buttons:hover {
+	background-color: grey;
+}
+
+
+
