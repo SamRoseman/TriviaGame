@@ -62,4 +62,6 @@ p {
 }
 
 
-
+img {
+	background-repeat: none;
+}
